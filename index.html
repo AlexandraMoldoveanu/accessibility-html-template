@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessible Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
@@ -17,7 +19,8 @@
 
         <nav class="nav" ria-label="Main Navigation">
             <ul class="nav-list">
-                <li class="logo"> <img src="./assets/Logo.svg" alt="logo"></li>
+                <li class="logo"> <img src="./assets/Logo.svg" alt="logo" width="40" height="40" class="responsive-img">
+                </li>
 
                 <li><a href="#about-us">About Us</a></li>
                 <li><span class="separator">|</span></li>
@@ -43,7 +46,7 @@
         <form class="search-form" role="search">
             <input type="search" id="search" name="search" placeholder="Search this site">
             <button type="submit" aria-label="Search">
-                <img src="./assets/Search Button.svg" alt="">
+                <img src="./assets/Search Button.svg" alt="" width="48" height="48" class="responsive-img">
             </button>
 
 
@@ -64,12 +67,12 @@
                 </p>
                 <button class="btn-primary">Buy Now</button>
             </div>
-            <img src="./assets/hero-img.svg" alt="Green tropical leaves"">
+            <img src="./assets/hero-img.svg" alt="Green tropical leaves" width="648" height="648">
         </section>
 
         <section class=" about-section" id="about-us">
             <article class="about-card">
-                <img src="./assets//card-leaf-img.svg" alt="">
+                <img src="./assets//card-leaf-img.svg" alt="" width="180" height="230">
                 <div class="card-content">
                     <h2>About Us</h2>
                     <p class="section-text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
@@ -83,7 +86,7 @@
             </article>
 
             <article class="about-card">
-                <img src="./assets/card-leaf-img.svg" alt="">
+                <img src="./assets/card-leaf-img.svg" alt="" width="180" height="230">
                 <div class="card-content">
                     <h2>About Us</h2>
                     <p class="section-text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
@@ -103,23 +106,26 @@
                 <p class="section-text-content">Fill up the form and ur Team will get back to you within 24 hours. Happy
                     to see your message!</p>
                 <div class="socials">
-                    <div class="contact-link"> <img src="/assets/facebook-icon.svg" alt="Facebook">
+                    <div class="contact-link"> <img src="/assets/facebook-icon.svg" alt="Facebook" width="24"
+                            height="24">
                         <p class="section-text-content">+380 93 15 32 456</p>
                     </div>
 
-                    <div class="contact-link"> <img src="/assets/facebook-icon.svg" alt="Facebook">
+                    <div class="contact-link"> <img src="/assets/facebook-icon.svg" alt="Facebook" width="24"
+                            height="24">
                         <p class="section-text-content">+380 93 15 32 456</p>
                     </div>
 
-                    <div class="contact-link"> <img src="/assets/facebook-icon.svg" alt="Facebook">
+                    <div class="contact-link"> <img src="/assets/facebook-icon.svg" alt="Facebook" width="24"
+                            height="24">
                         <p class="section-text-content">+380 93 15 32 456</p>
                     </div>
 
                 </div>
                 <div class="social-icons">
-                    <img src="./assets//facebook-icon.svg" alt="facebook-icon">
-                    <img src="./assets//facebook-icon.svg" alt="facebook-icon">
-                    <img src="./assets//facebook-icon.svg" alt="facebook-icon">
+                    <img src="./assets//facebook-icon.svg" alt="facebook-icon" width="24" height="24">
+                    <img src="./assets//facebook-icon.svg" alt="facebook-icon" width="24" height="24">
+                    <img src="./assets//facebook-icon.svg" alt="facebook-icon" width="24" height="24">
                 </div>
             </div>
 
@@ -199,7 +205,7 @@
         </section>
     </main>
 
-    <footer class="footer" role="info">
+    <footer class="footer" role="contentinfo">
         <div class="footer-content">
             <section class="footer-section">
                 <p class="section-title">PlantMe</p>
@@ -225,8 +231,8 @@
                 <p class="text-gray">Email: plantme@example.com</p>
                 <p class="text-gray">Phone: +38 050 037 0121</p>
                 <div class="flex-row">
-                    <img src="./assets/visa-icon.svg" alt="Visa">
-                    <img src="./assets/mastercard-icon.svg" alt="Mastercard">
+                    <img src="./assets/visa-icon.svg" alt="Visa" width="50" height="28">
+                    <img src="./assets/mastercard-icon.svg" alt="Mastercard" width="50" height="28">
                 </div>
             </section>
         </div>
